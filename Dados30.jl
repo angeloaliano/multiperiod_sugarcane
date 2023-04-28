@@ -38,8 +38,8 @@ C = [1,2,3,4]
 αe = 0.06
 
 SPSH(i,d,c) = (-0.0243*d^2 + 1)*((1-αa)^(c-1))*SSP[i]*PSC[i]
-SPEH(i,d,c) = (0.0041*d + 1)*((1+αe)^(c-1))*SEP[i]*PEC[i]
-FPSH(i,d,c) = (-0.0243*d^2 + 1)*((1-αa)^(c-1))*FSP[i]*PSC[i]
+SPEH(i,d,c) = (-0.0243*d^2 + 1)*((1+αe)^(c-1))*SEP[i]*PEC[i]
+FPSH(i,d,c) = (0.0041*d + 1)*((1-αa)^(c-1))*FSP[i]*PSC[i]
 FPEH(i,d,c) = (0.0041*d + 1)*((1+αe)^(c-1))*FEP[i]*PEC[i]
 
 #SPSH(i,d,c) = (-0.0243*d^2 + 1)*((1-αa)^(c-1))*SSP[i]*PSC[i]
